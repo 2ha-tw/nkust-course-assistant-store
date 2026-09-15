@@ -83,6 +83,11 @@ apps/extension/
 ├── content.js
 ├── page-hook.js
 ├── logo.svg
+├── icons/
+│   ├── icon16.png
+│   ├── icon32.png
+│   ├── icon48.png
+│   └── icon128.png
 ├── styles.css
 └── README.md
 ```
@@ -93,13 +98,13 @@ macOS／Linux 封裝：
 
 ```bash
 cd apps/extension
-zip -r ../../nkust-course-assistant-extension-0.4.6.zip manifest.json content.js page-hook.js logo.svg styles.css README.md
+zip -r ../../nkust-course-assistant-extension-0.4.7.zip manifest.json content.js page-hook.js logo.svg icons styles.css README.md
 ```
 
 Windows PowerShell：
 
 ```powershell
-Compress-Archive -Path manifest.json,content.js,page-hook.js,logo.svg,styles.css,README.md -DestinationPath ..\\..\\nkust-course-assistant-extension-0.4.5.zip -Force
+Compress-Archive -Path manifest.json,content.js,page-hook.js,logo.svg,icons,styles.css,README.md -DestinationPath ..\\..\\nkust-course-assistant-extension-0.4.7.zip -Force
 ```
 
 ## 開發檢查

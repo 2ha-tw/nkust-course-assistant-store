@@ -25,6 +25,8 @@
 
 完整使用說明與封裝指令在 apps/extension/README.md。
 
+上架檢查表在 [STORE_SUBMISSION_CHECKLIST.md](STORE_SUBMISSION_CHECKLIST.md)，隱私權說明在 [PRIVACY.md](PRIVACY.md)。
+
 ## 專案結構
 
 `apps/extension` 是不需要編譯的 Manifest V3 擴充功能：
@@ -33,6 +35,8 @@
 - `content.js`：名額顯示、釘選與篩選保存
 - `page-hook.js`：固定名額查詢與快捷查詢
 - `styles.css`：頁面樣式
-- `logo.svg`：橘色品牌圖示
+- `logo.svg`：橘色品牌向量圖
+- `icons/icon16.png`、`icon32.png`、`icon48.png`、`icon128.png`：瀏覽器與商店圖示
+- `store-assets/icon300.png`：Edge 商店建議尺寸圖示
 
 資料只保存在瀏覽器本機。使用前請確認高科大當期選課規範與網站條款。
