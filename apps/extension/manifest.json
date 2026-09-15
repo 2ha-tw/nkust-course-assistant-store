@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "高科選課助手",
+  "version": "0.4.6",
+  "description": "在高科大選課頁顯示即時名額與釘選課程，不會自動加選。",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://*.nkust.edu.tw/StdSelcrs/AddSelcrs/AddSelcrs/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.nkust.edu.tw/StdSelcrs/AddSelcrs/AddSelcrs/*"
+      ],
+      "js": ["page-hook.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": [
+        "https://*.nkust.edu.tw/StdSelcrs/AddSelcrs/AddSelcrs/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "高科選課助手"
+  }
+}

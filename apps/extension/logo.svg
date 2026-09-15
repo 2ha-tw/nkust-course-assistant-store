@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">高科選課助手</title>
+  <desc id="logo-desc">橘色雷達掃描線、名額訊號點與課程卡片</desc>
+  <defs>
+    <linearGradient id="bg" x1="12" y1="8" x2="116" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7c2d12"/>
+      <stop offset="1" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="38" y1="88" x2="92" y2="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fed7aa"/>
+      <stop offset="1" stop-color="#fff7ed"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#431407" flood-opacity=".4"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bg)"/>
+  <circle cx="64" cy="58" r="39" fill="#431407" fill-opacity=".42" stroke="#ffedd5" stroke-opacity=".5" stroke-width="2"/>
+  <circle cx="64" cy="58" r="26" fill="none" stroke="#ffedd5" stroke-opacity=".36" stroke-width="2"/>
+  <circle cx="64" cy="58" r="13" fill="none" stroke="#ffedd5" stroke-opacity=".44" stroke-width="2"/>
+  <path d="M25 58h78M64 19v78" stroke="#ffedd5" stroke-opacity=".26" stroke-width="2"/>
+  <path d="M64 58 92 35A39 39 0 0 0 64 19Z" fill="#fed7aa" fill-opacity=".2"/>
+  <path d="M64 58 92 35" stroke="url(#scan)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="64" cy="58" r="5" fill="#fff7ed"/>
+  <circle cx="92" cy="35" r="8" fill="#facc15" fill-opacity=".28"/>
+  <circle cx="92" cy="35" r="5" fill="#facc15" stroke="#fff7ed" stroke-width="2"/>
+  <g filter="url(#shadow)">
+    <rect x="20" y="76" width="58" height="33" rx="8" fill="#fff7ed"/>
+    <rect x="27" y="83" width="25" height="4" rx="2" fill="#7c2d12"/>
+    <rect x="27" y="92" width="42" height="4" rx="2" fill="#fdba74"/>
+    <rect x="27" y="100" width="31" height="4" rx="2" fill="#ea580c"/>
+    <circle cx="68" cy="85" r="4" fill="#facc15"/>
+  </g>
+</svg>

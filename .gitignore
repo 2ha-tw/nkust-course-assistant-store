@@ -1,0 +1,12 @@
+node_modules
+dist
+coverage
+.env
+config.local.json
+config.json
+data/
+**/data/
+playwright-report/
+test-results/
+.DS_Store
+*.zip
