@@ -18,7 +18,7 @@
 
 1. 建立或登入 Chrome Web Store Developer Dashboard。
 2. 上傳 `nkust-course-assistant-extension-0.4.7.zip`。
-3. Store Listing 填名稱、摘要、完整說明、語言與商店圖示；可補上課程頁操作截圖。
+3. Store Listing 填名稱、摘要、完整說明、語言與商店圖示；文案可直接使用 `STORE_LISTING.md`，再補上課程頁操作截圖。
 4. Privacy 填單一用途、`storage` 與高科大頁面權限用途、資料使用聲明與 Limited Use 認證。
 5. Distribution 選擇地區與發布方式。
 6. 若審查需要登入，提供只供審查的測試步驟與測試帳號，不要提供個人主要帳號。
@@ -53,6 +53,7 @@
 - Chrome Web Store Developer Dashboard 與 Edge Partner Center 帳號驗證。
 - 商店頁的完整描述、支援聯絡方式與發布地區。
 - 課程頁操作截圖；Edge 可使用 640×480 或 1280×800，最多 6 張。
+- 商店文案草稿已整理在 `STORE_LISTING.md`。
 - Edge 的隱私權 URL 可使用本專案的 `PRIVACY.md` 公開頁面：
   https://github.com/2ha-tw/nkust-course-assistant-store/blob/main/PRIVACY.md
 
